@@ -1,0 +1,83 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+        "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"],
+        "context": [""]
+      },
+      {
+        "tag": "course",
+        "patterns": ["What are the popular courses at Jain University?", "Popular courses at Jain University", "Top courses in Jain University", "What courses does Jain University offer?"],
+        "responses": ["Jain University offers popular courses like B.Tech, MBA, B.Sc., M.Sc., and more in the fields of Engineering, Management, Science, Commerce, and Arts."],
+        "context": [""]
+      },
+      {
+        "tag": "admission",
+        "patterns": ["How do I apply for admission to Jain University?", "Admission process at Jain University", "How to get admission at Jain University?", "Steps for applying at Jain University"],
+        "responses": ["To apply for admission at Jain University, you need to fill out the online application form available on their website, appear for the entrance exam if required, and submit the necessary documents."],
+        "context": [""]
+      },
+      {
+        "tag": "fees",
+        "patterns": ["What is the fee structure for the B.Tech program?", "B.Tech fees at Jain University", "Fee structure for B.Tech at Jain University", "How much is the B.Tech course fee?"],
+        "responses": ["The fee structure for the B.Tech program at Jain University varies depending on the specialization. The approximate fee ranges between INR 1.5 lakh to 2.5 lakh per annum."],
+        "context": [""]
+      },
+      {
+        "tag": "eligibility",
+        "patterns": ["What are the eligibility criteria for a Master's degree at Jain University?", "Eligibility for Masters at Jain University", "Master's degree requirements at Jain University", "Eligibility criteria for Postgraduate programs"],
+        "responses": ["The eligibility criteria for a Master's degree at Jain University include a relevant Bachelor's degree with a minimum aggregate score as specified by the university for different courses."],
+        "context": [""]
+      },
+      {
+        "tag": "scholarships",
+        "patterns": ["Are scholarships available for students?", "Does Jain University offer scholarships?", "Scholarship opportunities at Jain University", "How to apply for scholarships at Jain University?"],
+        "responses": ["Yes, scholarships are available at Jain University based on academic performance, sports achievements, and other criteria. Check the official website for detailed information."],
+        "context": [""]
+      },
+      {
+        "tag": "placement",
+        "patterns": ["How is the placement at Jain University?", "Placement record at Jain University", "Does Jain University have good placements?", "Job placements at Jain University"],
+        "responses": ["Jain University has a strong placement record with many top recruiters visiting the campus. The average package ranges from INR 4-6 LPA with reputed companies hiring students."],
+        "context": [""]
+      },
+      {
+        "tag": "activities",
+        "patterns": ["What extracurricular activities are available?", "Extracurricular activities at Jain University", "What are the clubs and events at Jain University?", "Clubs at Jain University"],
+        "responses": ["Jain University offers a range of extracurricular activities including sports, cultural clubs, technical clubs, and events like fests, hackathons, and more to engage students."],
+        "context": [""]
+      },
+      {
+        "tag": "hostel",
+        "patterns": ["What are the hostel facilities like?", "Hostel facilities at Jain University", "Are there hostels at Jain University?", "Living facilities at Jain University"],
+        "responses": ["Jain University provides well-equipped hostels with amenities like Wi-Fi, mess facilities, recreational rooms, and round-the-clock security to ensure a comfortable stay for students."],
+        "context": [""]
+      },
+      {
+        "tag": "exam",
+        "patterns": ["Is there an entrance exam for admission?", "Entrance exam for Jain University", "Does Jain University conduct entrance exams?", "Admission test at Jain University"],
+        "responses": ["Yes, Jain University conducts its entrance exam called JET (Jain Entrance Test) for various undergraduate and postgraduate programs."],
+        "context": [""]
+      },
+      {
+        "tag": "distance_learning",
+        "patterns": ["What is the scope of distance learning programs?", "Distance learning at Jain University", "Online courses at Jain University", "Distance education opportunities at Jain University"],
+        "responses": ["Jain University offers a wide range of distance learning programs through its online education platform, with courses designed for working professionals and those who want to study remotely."],
+        "context": [""]
+      }
+    ]
+  }
+  
